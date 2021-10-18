@@ -4,29 +4,25 @@ console.log(welcome, users[0])
 
 const readline = require('readline');
 
-const readerPassword = readline.createInterface({
+const reader = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
 
 
 
-readerPassword.question("Validate your password" , function(input){
-	password = input.split(' ');
-	
-	passwordValidator = password[0];
-	num1 = Number(tokens[1]);
-	num2 = Number(tokens[2]);
-   
-   if (password.length <= 10 ){
+reader.question("Validate your password" , function(password){
+	//password = input.split(' ');
+   if (password.length >= 10 ){
        console.log("Successul Password Update")
-   } else (password.length > 10)
-       (console.log("Failed Password Attempt"))
+   } else {
+       (console.log("Failed Password Attempt: Too Short"))
+   }
    
    
    
 
-    readerPassword.close()
+    //readerPassword.close()
 });
 
 
