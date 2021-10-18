@@ -23,10 +23,11 @@ for (let i = 0; i < SDL.length; i++){
 /*
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
 */
-let Planning = ''
-let AnalysisOfRequirements = ''
-let Design = ''
-let Implementation = ''
-let TestingIntegration = ''
-let Maintain = ''
+let Planning = 'Decide on system and software requirements '
+let AnalysisOfRequirements = 'Business rules and data models'
+let Design = 'Design the software (UI/UX) '
+let Implementation = 'Actual installation of the crafted solution takes place'
+let TestingIntegration = 'QA engineers conduct test to ensure code is clean and business goals of solution is met'
+let Maintain = 'After deployed, maintenance and regular updates. Figutre out maintenance, support and installation.'
+console.log("--------")
 console.log(Planning)

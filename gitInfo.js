@@ -10,6 +10,8 @@
 */
 
 //CODE HERE
+let gitDefinition = "A program that allows you to track chanegs of code"
+console.log(gitDefinition)
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+let gitHubDefinition = "Allows you to track your git respositories and downloads"
+console.log(gitHubDefinition)
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -34,7 +38,9 @@
 */
 
 //CODE HERE
-
+let gitInitDesription = "initalize local repo right here in this folder"
+let gitInitCode = "git init"
+console.log(gitInitDesription, gitInitCode)
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +48,9 @@
 */
 
 //CODE HERE
-
+let gitCloneDesription = "target an exisiting repo and create clone"
+let gitCloneCode = "git clone"
+console.log(gitCloneDesription, gitCloneCode)
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +58,9 @@
 */
 
 //CODE HERE
-
+let gitStatusDesription = "tell me about this repo"
+let gitStatusCode = "git status"
+console.log(gitStatusDesription, gitStatusCode)
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +68,9 @@
 */
 
 //CODE HERE
-
+let gitAddDesription = "add some files to be tracked"
+let gitAddCode = "git add"
+console.log(gitAddDesription, gitAddCode)
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,9 @@
 */
 
 //CODE HERE
-
+let gitCommitDesription = "create a snapshot of the files I'm tracking"
+let gitCommitCode = "git commit -m "
+console.log(gitCommitDesription, gitCommitCode)
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +89,6 @@
 */
 
 //CODE HERE
+let gitPushDesription = "uplaod local repo content to a remote repo"
+let gitPushCode = "git push"
+console.log(gitPushDesription, gitPushCode)

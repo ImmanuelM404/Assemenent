@@ -39,15 +39,21 @@ console.log(middleNums)
 */
 
 // CODE HERE
-function bigOrSmall (arr, answers){
-   answers []
-   arr [2, 3, 2 , 4 , 4]
-   for (let i = 0; i < arr.length; i++){
-   if (arr[i] < 100)
-      answer = arr.push('big')
-    return   }
+function bigOrSmall(arr){ 
+  let answers = []
+  //arr = [10, 100, 20, 25, 30]
+  arr = [100]
+  for ( i = 0; i <= arr.length; i++){
+  if (arr >= 100) {
+    arr = answers.push('Big')
+    //console.log(answers)
+    return answers
+  }else { (arr < 100)
+    arr = answers.push('Small')
+    //console.log(answers)
+  } return answers
 }
+ 
 
-//for (let i = 0; i < arr; i++){
-     //answers[]
-//}
+}
+ console.log(bigOrSmall(2))
